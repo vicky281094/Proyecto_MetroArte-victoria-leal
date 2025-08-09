@@ -93,6 +93,7 @@ def main():
                                 obra = obtener_obra(id)
                                 obra.show()
                                 break
+                            break
                         elif decision == 2:
                             while True:
                                 try:
@@ -105,6 +106,7 @@ def main():
                                     print("\n El Id está compuesto unicamente de números \n")
                                 except AttributeError:
                                     print(f" \n No se consiguió ninguna obra con el id {id}, intentelo nuevamente \n")
+                            break
                         else:
                             print(" Las opciones se presenta 1 o 2")
                             
